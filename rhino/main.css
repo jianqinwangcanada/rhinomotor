@@ -89,14 +89,14 @@ img product {
   color: white;
 }
 /*
-**************************************   Header Nav****************************************************
+**************************************  main body ****************************************************
 */
 * {box-sizing: border-box}
 .mySlides {display: none}
 img {vertical-align: middle;}
 main img{
                 
-    height: 400px;
+    height: 450px;
 }
 /* Slideshow container */
 .slideshow-container {
