@@ -37,30 +37,6 @@ b, strong {
 samp {
     display: none;
 }
-
-/*
-img product {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
-*/
-
-@keyframes colorize {
-    0% {
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    100% {
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-    }
-}
-
 /*
 **************************************   Header Nav****************************************************
 */
@@ -70,11 +46,17 @@ img product {
     margin-right: 0;
 /*    margin-bottom:0;*/
 }
+.topnav ul{
+    list-style-type:none;
+}
+.topnav ul li{
+      float: left;
+     text-align: center;
+}
 
-.topnav a {
-  float: left;
+.topnav  a{
   color: #f2f2f2;
-  text-align: center;
+ 
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -84,11 +66,23 @@ img product {
   background-color: #ddd;
   color: black;
 }
-
-.topnav a.active {
+.topnav a:focus{
+    background-color: #04AA6D;
+  color: white;
+}
+.mychange{
+    background-color: #04AA6D;
+  color: white;
+}
+/*
+.topnav a:focus{
   background-color: #04AA6D;
   color: white;
 }
+*/
+
+button:focus{ background-color: #04AA6D;
+  color: white;}
 /*
 **************************************  main body ****************************************************
 */
